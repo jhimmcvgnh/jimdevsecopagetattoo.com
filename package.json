@@ -1,0 +1,12 @@
+{
+  "name": "cmd-zest-quiz",
+  "version": "1.0.0",
+  "description": "SOUR cmd+zest quiz result page",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -c-1 --cors -o",
+    "start": "npx http-server . -p 3000 -c-1 --cors"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
